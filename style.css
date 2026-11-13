@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border:1px solid red; */
+
+}
+
+ul{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    padding: 20px 60px;
+   
+}
+ul>li{
+    display: inline;
+    margin: 10px;
+}
+
+ul>li:first-child{
+    margin-right: auto;
+}
+
+ul>li:last-child{
+    margin-left: auto;
+}
+
+ul>li>a{
+    text-decoration: none;
+    color: gray;
+}
+
+ul>li>a:hover{
+    color: black;
+    text-transform: uppercase;
+}
+
+.userName{
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: rgb(6, 175, 175);
+    background-color: rgb(213, 235, 228);
+    
+}
+Button:hover{
+text-transform: uppercase;}
+
+#logoImg{
+    width: 100px;
+}
+
+
+
+.container{
+    position:absolute;
+    margin: 5vh 20vw;
+    padding: 10px;
+    width:60vw;
+    height:80vh;
+    /* border: 1px solid red; */
+
+    img{
+    float: right;
+    width: 50%;
+    max-width: 800px;
+    height:auto;
+}
+
+p{
+    font-size: 2rem;
+}
+
+#firstHead{
+    font-size: 5rem;
+}
+
+#secondHead{
+    font-size:3rem;
+    color: blueviolet;
+}
+
+}
+
+.bookButton{
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+    padding: 20px 60px;
+    color: rgb(6, 175, 175);
+    background-color: rgb(213, 235, 228);
+    border-radius: 5px;
+    font-size: 1rem;
+    
+
+
+}
+
+
+
+
